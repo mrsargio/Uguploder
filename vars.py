@@ -17,7 +17,8 @@ BOT_TOKEN = environ.get("BOT_TOKEN", "6234022831:AAGXxnk_pOGRm0dUAFPQHjgF9h2vEtd
 
 
 OWNER = int(environ.get("OWNER", "6175650047"))
-
+# vars.py
+ADMINS = [6175650047]   # अपना टेलीग्राम ID या कोई भी नंबर डाल सकते हैं
 CREDIT = environ.get("CREDIT", "Sargio")
 
 
@@ -41,6 +42,7 @@ if int(OWNER) not in AUTH_USERS:
 #WEBHOOK = True  # Don't change this
 
 #PORT = int(os.environ.get("PORT", 8080))  # Default to 8000 if not set
+
 
 
 
