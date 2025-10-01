@@ -66,7 +66,7 @@ from vars import *
 from pyromod import listen
 import apixug
 from apixug import SecureAPIClient
-
+from db import db
 
 auto_flags = {}
 auto_clicked = False
